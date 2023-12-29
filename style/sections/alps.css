@@ -1,0 +1,128 @@
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white: #fff;
+    --pink: #BF1E77;
+    --grey: #545155;
+    --bg-white: #FBF7F4;
+}
+
+.alps {
+    margin-bottom: 90px;
+}
+
+.alps-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alps-bg__title {
+    position: absolute;
+    z-index: -1;
+}
+
+.alps-big__title {
+    position: relative;
+}
+
+.bg-title {
+    text-align: center;
+    color: var(--pink);
+    font-family: var(--SR);
+    font-size: 168px;
+    line-height: 252px;
+    opacity: 0.1;
+}
+
+.alps-title {
+    position: relative;
+    padding-top: 113px;
+    padding-bottom: 41px;
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--MR);
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.alps-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.alps-one__min-title {
+    padding-top: 24px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 12px;
+    line-height: 18px;
+    opacity: 0.7;
+}
+
+.item-one__title {
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-one__min-title {
+    display: flex;
+    padding-top: 20px;
+}
+
+.min-title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item-one__price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-one__purchase {
+    padding-left: 170px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.alps-line {
+    margin: 24px 0px;
+    height: 1px;
+    background: var(--pink);
+    opacity: 0.4;
+}
+
+.alps-icon__left {
+    color: var(--pink);
+    margin-left: -80px;
+}
+
+.alps-icon__right {
+    color: var(--pink);
+    margin-right: -80px;
+}
+
+
+/* alps-end */

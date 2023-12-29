@@ -1,0 +1,115 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+    --blue:#6495ed;
+}
+.alps-line {
+    margin: 24px 0px;
+    height: 1px;
+    background: var(--pink);
+    opacity: 0.4;
+}
+/* root-end */
+      
+.main-title {
+    margin-top: 60px;
+    color:var(--grey);
+    text-align: center;
+    font-family:var(--MS);
+    font-size: 48px;
+    line-height:72px;
+    text-transform: uppercase;
+}    
+    
+/* alps-start */
+.alps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.alps-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alps-title {
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--MR);
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.alps-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.item-one__title {
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-one__min-title {
+    display: flex;
+    padding-top: 20px;
+}
+.alps-min__title{
+    color:var(--pink);
+    font-family:var(--MR);
+    font-size: 12px;
+    line-height: 18px;
+}
+.min-title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+.price-title{
+    padding-left: 10px;
+    color:var(--grey);
+    font-family:var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+.item-one__price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-one__purchase {
+    padding-left: 100px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+.alps-icon{
+    color: var(--pink);
+}
+
+

@@ -1,0 +1,90 @@
+@import url(../fonts.css);
+
+/* root-start */
+:root {
+    --MR: Montserrat-Regular;
+    --MM: Montserrat-Medium;
+    --ML: Montserrat-Light;
+    --MS: Montserrat-SemiBold;
+    --SR: MarckScript-Regular;
+    --white:#fff;
+    --pink:#BF1E77;
+    --grey:#545155;
+    --bg-white:#FBF7F4;
+    --black:black;
+}
+/* root-end */
+/* alps-start */
+
+
+.alps {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.alps-title {
+    color: var(--grey);
+    text-align: center;
+    font-family: var(--MR);
+    font-size: 48px;
+    line-height: 72px;
+    text-transform: uppercase;
+}
+
+.alps-img {
+    max-width: 320px;
+    width: 100%;
+}
+
+.item-one__title {
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.item-one__min-title {
+    display: flex;
+    padding-top: 20px;
+}
+
+.min-title {
+    color: var(--grey);
+    font-family: var(--MS);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.min-title__text {
+    padding-left: 10px;
+    color: var(--grey);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.item-one__price {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.item-one__purchase {
+    padding-left: 170px;
+    color: var(--pink);
+    font-family: var(--MR);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.alps-item {
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alps-icon {
+    color: var(--pink);
+}
+
+
